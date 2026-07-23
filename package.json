@@ -1,14 +1,30 @@
 {
-  "name": "pixelsport-m3u-generator",
-  "version": "1.0.0",
-  "description": "Generate PixelSport M3U8 playlists on-the-fly",
+  "name": "movieace",
+  "private": true,
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vercel dev",
-    "deploy": "vercel --prod"
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@types/node": "^24.3.0",
+    "@vueuse/core": "^13.1.0",
+    "axios": "^1.4.0",
+    "lodash": "^4.17.21",
+    "lodash.debounce": "^4.0.8",
+    "swiper": "^10.1.0",
+    "vue": "^3.5.0",
+    "vue-router": "^4.0.13"
+  },
   "devDependencies": {
-    "vercel": "^37.0.0"
+    "@types/lodash": "^4.14.196",
+    "@types/lodash.debounce": "^4.0.9",
+    "@vitejs/plugin-vue": "^5.2.0",
+    "sass": "^1.64.1",
+    "typescript": "^5.0.2",
+    "vite": "^5.4.0",
+    "vue-tsc": "^2.2.0"
   }
 }
