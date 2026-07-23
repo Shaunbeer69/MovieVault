@@ -1,10 +1,14 @@
 {
-  "name": "vidlink-fetcher",
+  "name": "pixelsport-m3u-generator",
   "version": "1.0.0",
+  "description": "Generate PixelSport M3U8 playlists on-the-fly",
+  "type": "module",
   "scripts": {
-    "start": "node server.js"
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
   },
-  "dependencies": {
-    "libsodium-wrappers": "*"
+  "dependencies": {},
+  "devDependencies": {
+    "vercel": "^37.0.0"
   }
 }
